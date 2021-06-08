@@ -10,37 +10,72 @@ body, html {
     height: 400px;
     margin: 100px auto 0px auto;
     border: solid #fff 4px;
-    
 
-    .img1 {
-        width: 400px;
-        height: 400px;
-        background-color: darkgreen;
+    overflow: hidden;
+    
+    .slider_line {
+        width: 1200px;
+        display: flex;
+        position: relative;
+
+        left: 0px;
+
+        transition: all ease 0.5s;
+
+        .img1 {
+            width: 400px;
+            height: 400px;
+            background-color: darkgreen;
+        }
+        .img2 {
+            width: 400px;
+            height: 400px;
+            background-color:deeppink;
+        }
+        .img3 {
+            width: 400px;
+            height: 400px;
+            background-color: darkviolet;
+        }
     }
-    .img2 {
-        width: 400px;
-        height: 400px;
-        background-color:deeppink;
-    }
-    .img3 {
-        width: 400px;
-        height: 400px;
-        background-color: darkviolet;
-    }
+    
 }
 
-.btn {
-    width: 140px;
-    height: 60px;
+.btn_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
 
-    background-color: #4d4d4d;
-    border: none;
-    color: #fff;
-    align-items: center;
+    .btn {
+        width: 140px;
+        height: 60px;
+    
+        background-color: #4d4d4d;
+        border: none;
+        color: #fff;
+        align-items: center;
+    
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 24px;
+        
+        margin: 0px 100px 0px 100px;
 
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 24px;
+        cursor: pointer;
 
-    position: relative;
+        border-radius: 12px;
+
+
+    }
+    
+    
+    
+    .next_button {
+        
+    }
+    
+    .prev_button {
+    
+    }
 }
