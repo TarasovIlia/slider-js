@@ -1,0 +1,46 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+
+    margin: 0px;
+}
+.slider_container {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto 0px auto;
+    border: solid #fff 4px;
+    
+
+    .img1 {
+        width: 400px;
+        height: 400px;
+        background-color: darkgreen;
+    }
+    .img2 {
+        width: 400px;
+        height: 400px;
+        background-color:deeppink;
+    }
+    .img3 {
+        width: 400px;
+        height: 400px;
+        background-color: darkviolet;
+    }
+}
+
+.btn {
+    width: 140px;
+    height: 60px;
+
+    background-color: #4d4d4d;
+    border: none;
+    color: #fff;
+    align-items: center;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+
+    position: relative;
+}
